@@ -178,7 +178,7 @@ export const UnitStudyView: React.FC<UnitStudyViewProps> = ({
                            </div>
                            <div className="flex items-start">
                               <div className="w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center text-xs font-bold mr-3 mt-0.5">2</div>
-                              <p className="text-gray-600 text-sm"><span className="font-bold text-gray-800">Identify the starting value (b):</span> Wait! The first mile is special. It's actually $3.00 flat.</p>
+                              <p className="text-gray-600 text-sm"><span className="font-bold text-gray-800">Identify the starting value (b):</span> Wait! The first mile is special. It&apos;s actually $3.00 flat.</p>
                            </div>
                            <div className="flex items-start">
                               <div className="w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center text-xs font-bold mr-3 mt-0.5">3</div>

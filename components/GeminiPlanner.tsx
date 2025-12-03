@@ -166,7 +166,7 @@ export const GeminiPlanner: React.FC<GeminiPlannerProps> = ({ onComplete }) => {
             </span>
           </h1>
           <p className="text-lg text-slate-600 max-w-lg mx-auto lg:mx-0">
-            Tell us your timeline and goals. We'll build a custom dynamic study plan that adapts to your progress.
+            Tell us your timeline and goals. We&apos;ll build a custom dynamic study plan that adapts to your progress.
           </p>
         </div>
 
@@ -186,7 +186,7 @@ export const GeminiPlanner: React.FC<GeminiPlannerProps> = ({ onComplete }) => {
             {step === 'input' && (
               <div className="space-y-8 animate-fadeIn">
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-800 mb-6">Let's set your target.</h3>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-6">Let&apos;s set your target.</h3>
                   
                   <label className="block text-sm font-semibold text-gray-700 mb-3">
                     <Calendar className="inline h-4 w-4 mr-2 text-violet-600" /> 

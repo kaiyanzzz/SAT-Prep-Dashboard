@@ -12,10 +12,10 @@ export default function LearnPage() {
   const moduleId = params.module as string;
   const sectionId = params.section as string;
 
-  const module = DASHBOARD_MODULES.find(m => m.id === moduleId);
-  const section = module?.content.find(s => s.id === sectionId);
+  const moduleData = DASHBOARD_MODULES.find(m => m.id === moduleId);
+  const section = moduleData?.content.find(s => s.id === sectionId);
 
-  if (!module || !section) {
+  if (!moduleData || !section) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
@@ -35,8 +35,8 @@ export default function LearnPage() {
   return (
     <UnitStudyView
       unit={section}
-      moduleTitle={module.title}
-      moduleColor={module.color}
+      moduleTitle={moduleData.title}
+      moduleColor={moduleData.color}
       onBack={() => router.push('/')}
     />
   );

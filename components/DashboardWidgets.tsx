@@ -182,7 +182,7 @@ export const AIRecommendations: React.FC<{ stats: UserStats }> = ({ stats }) => 
               </button>
             ) : (
               <div className="animate-fadeIn p-3 bg-indigo-500/30 border border-indigo-400/30 rounded-lg">
-                <p className="text-sm italic">"{tip}"</p>
+                <p className="text-sm italic">&ldquo;{tip}&rdquo;</p>
               </div>
             )}
           </div>
