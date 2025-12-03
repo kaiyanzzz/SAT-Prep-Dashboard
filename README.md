@@ -135,15 +135,6 @@ npm start
 npm run lint
 ```
 
-## Migration Notes
-
-This project was migrated from Vite + React to Next.js 14+ with the following changes:
-
-- Client components marked with `'use client'` directive
-- API routes moved to `app/api/` directory
-- Routing uses Next.js App Router
-- State management preserved with React hooks
-- All styling and components maintained
 
 ## License
 
