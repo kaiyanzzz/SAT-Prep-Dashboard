@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Achievable SAT Prep - Next.js
 
 AI-powered SAT preparation platform migrated from Vite to Next.js 14+ with App Router.
@@ -148,3 +149,6 @@ This project was migrated from Vite + React to Next.js 14+ with the following ch
 
 Private - All rights reserved
 
+=======
+# SAT-Prep-Dashboard
+>>>>>>> 8e50203680b51cd6531d7fc5390e13e23c14fd3d
